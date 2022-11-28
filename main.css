@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("/CyberCypherWebsite/Assets/MAC_Background.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #navbar🍑
+  {
+color: white;
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+
+
+  }
