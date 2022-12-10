@@ -1513,7 +1513,7 @@ section {
 	height: 600px;
 }
 
-.wrapper .p, h1, h2 {
+.wrapper .p, h1 {
 	color: rgb(255, 255, 255);
 	font-family: 'Clash Display', sans-serif;
 	margin: auto;
