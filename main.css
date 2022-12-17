@@ -80,7 +80,7 @@ h1{
 
 /* landing Page texts */
 .heading-items{
-padding-top:50px;
+padding-top:20px;
 color:white;
 font-family:Breymont-Bold;
 font-style: normal; 
@@ -118,8 +118,39 @@ font-family: 'visby-bold';
 font-style: bold;
 padding-left: 20px;
 }
-.para {
-color: white;
-padding-left: 20px;
-padding-right:20px;
+
+.welcome{
+    padding-top:20px;
+    text-align: center;
+
 }
+.glass
+{
+    width: 200px;
+    height: 130px;
+    position:relative;
+    bottom:30px;
+    left:215px;
+}
+.svkm
+{
+    width: 120px;
+    height: 90px;
+    position:relative;
+    top:50px;
+    left:120px;
+}
+.heading-about{
+color: white;
+font-family: 'visby-bold';
+font-style: bold;
+display:flex;
+padding-left: 40px;
+position:relative;
+bottom: 110px;
+font-size:30px;
+}
+.para {
+    color: white;
+    padding-left: 20px;
+    padding-right:20px;}
