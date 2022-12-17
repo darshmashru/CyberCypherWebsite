@@ -88,6 +88,7 @@ font-style: normal;
 }
 .heading-nmims{
 padding-top:5px;
+font-size:20px;
 }
 
 /* heading graphics */
@@ -98,59 +99,54 @@ font-size: normal;
 color: white;
 }
 
+.cybercypherheading{
+    width:70%;
+}
+
 .applybtn{
 padding-top: 20px;
 }
 
 /* welcome to scam */
-.welcome-heading{
-padding-top: 70px;
-font-family: 'Breymont-Bold';
-font-style: normal;
-font-weight: 100;
-font-size: 50px;
-line-height: 102%;
-    }
 
-.welcome-about{
-color: white;
-font-family: 'visby-bold';
-font-style: bold;
-padding-left: 20px;
-}
 
 .welcome{
-    padding-top:20px;
-    text-align: center;
+ text-align: center;  
+  
+}
 
+.welcomeheading{
+    padding-top:20px;
+    width:70%;
 }
-.glass
-{
-    width: 200px;
-    height: 130px;
-    position:relative;
-    bottom:30px;
-    left:215px;
-}
-.svkm
-{
-    width: 120px;
-    height: 90px;
-    position:relative;
-    top:50px;
-    left:120px;
-}
-.heading-about{
-color: white;
-font-family: 'visby-bold';
-font-style: bold;
-display:flex;
-padding-left: 40px;
-position:relative;
-bottom: 110px;
-font-size:30px;
-}
-.para {
-    color: white;
-    padding-left: 20px;
-    padding-right:20px;}
+
+
+section{padding:90px 0 90px 0;}
+section{color:white;}
+	section.custom-1{
+	border-bottom-left-radius: 100% 100%;
+	border-bottom-right-radius: 100% 100%;
+	overflow:hidden;
+	}
+	
+	
+	.section-fixed {
+	position:fixed;
+	width:100%;
+	min-height:100%;
+	height:auto;
+	}
+   
+    .paragraph{
+        padding-top:40px;
+    }
+    .shadow{
+        padding-top: 70px;
+        padding-left: 20px;
+        width:50%;
+    }
+    #section-about{
+    font-family: 'visby-bold';
+    font-style: normal;
+    font-size:5px;
+    }
