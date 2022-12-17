@@ -1,0 +1,73 @@
+/* fonts links */
+
+@font-face {
+    font-family: "visby-bold";
+    src: url(./Fonts/VisbyCF-Bold.otf);
+}
+
+@font-face {
+    font-family: "visby-DemiBold";
+    src: url(./Fonts/VisbyCF-DemiBold.otf);
+}
+
+@font-face {
+    font-family: "visby-regular";
+    src: url(./Fonts/VisbyCF-Regular.otf);
+}
+
+@font-face {
+    font-family: "visby-extrabold";
+    src: url(./Fonts/VisbyCF-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "visby-heavy";
+    src: url(./Fonts/VisbyCF-Heavy.otf);
+}
+
+@font-face {
+    font-family: "visby-medium";
+    src: url(./Fonts/VisbyCF-Medium.otf);
+}
+
+@font-face {
+    font-family: "Breymont-Bold";
+    src: url(./Fonts/Breymont-Bold.otf);
+}
+
+@font-face {
+    font-family: "Breymont-light";
+    src: url(./Fonts/Breymont-Light.otf);
+}
+/* fonts end */
+/* navigation Changes */
+
+/* navbar */
+
+.nav-item
+{
+    font-family: 'visby-regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    padding-right:2.5rem;
+    
+}
+/* countdown timer */
+
+   .countdown-timer-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+   .countdown-timer-container div {
+    width: 25%;
+    text-align: center;
+    font-size: 30px;
+   }
+   .countdown-timer-values {
+    font-size: 60px !important;
+   }
+   
