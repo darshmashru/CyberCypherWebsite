@@ -86,4 +86,39 @@ font-family:Breymont-Bold;
 font-style: normal; 
 
 }
+.heading-nmims{
+padding-top:5px;
+}
 
+/* heading graphics */
+.heading-graphics{
+padding-top: 10px;
+font-family: 'visby-medium';
+font-size: normal;
+color: white;
+}
+
+.applybtn{
+padding-top: 20px;
+}
+
+/* welcome to scam */
+.welcome-heading{
+padding-top: 70px;
+font-family: 'Breymont-Bold';
+font-style: normal;
+font-weight: 100;
+font-size: 50px;
+line-height: 102%;
+    }
+.welcome-about{
+color: white;
+font-family: 'visby-bold';
+font-style: bold;
+padding-left: 20px;
+}
+.para {
+color: white;
+padding-left: 20px;
+padding-right:20px;
+}
