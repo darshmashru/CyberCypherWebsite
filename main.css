@@ -1,3 +1,9 @@
+h1{
+    background:linear-gradient(89.98deg, #A9363C 0.01%, #A70A53 53.8%, #A9363C 99.98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* fonts links */
 
 @font-face {
@@ -55,19 +61,29 @@
     
 }
 /* countdown timer */
-
-   .countdown-timer-container {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   }
-   .countdown-timer-container div {
-    width: 25%;
+.countdown-timer-container{
+    color:white;
+}
+.countdown-timer-values{
+    padding-top: 50px;
     text-align: center;
-    font-size: 30px;
-   }
-   .countdown-timer-values {
-    font-size: 60px !important;
-   }
-   
+    font-family: 'visby-bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 102%;
+}
+.texts-timer{
+    font-family: 'visby-bold';
+    font-style: normal;
+}
+
+/* landing Page texts */
+.heading-items{
+padding-top:50px;
+color:white;
+font-family:Breymont-Bold;
+font-style: normal; 
+
+}
+

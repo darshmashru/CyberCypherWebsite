@@ -13,7 +13,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body style="background-color: #252525;">
     <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="background-color: #252525;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -44,16 +44,39 @@
         </div>
       </nav>
 <!-- timer beigns -->
-<div class="countdown-timer-container">
-  <div class="countdown-timer-values" id="days">00</div>
-  <div class="countdown-timer-values" id="hours">00</div>
-  <div class="countdown-timer-values" id="minutes">00</div>
-  <div class="countdown-timer-values" id="seconds">00</div>
-  <div>days</div>
-  <div>hours</div>
-  <div>minutes</div>
-  <div>seconds</div>
+<div class=" d-flex justify-content-center countdown-timer-container">
+  <div class="texts-timer">
+    <div class="countdown-timer-values" id="days">00</div>
+    <div style="padding-right: 10px;">Days</div>
   </div>
+  <div class="texts-timer">
+    <div class="countdown-timer-values" id="hours">00</div>
+    <div style="padding-right: 10px;">Hours</div>
+  </div>
+  
+  <div class="texts-timer">
+    <div class="countdown-timer-values" id="minutes">00</div>
+    <div style="padding-right: 10px;">Minutes</div>
+  </div>
+  <div class="texts-timer" >
+  <div class="countdown-timer-values" id="seconds">00</div>
+
+  <div style="padding-right: 10px;">Seconds</div>
+</div>
+</div>
+<!-- timer ends -->
+
+
+<!-- landing page texts -->
+<div class="heading-items">
+<div class="text-center heading-cyber">
+  
+  <h1>Cyber<br>Cypher</h1>
+</div>
+<div class=" text-center heading-nmims">
+  <p> NMIMS’ Official Hackathon</p>
+</div>
+</div>  
 
 
   <script src="main.js"></script>
