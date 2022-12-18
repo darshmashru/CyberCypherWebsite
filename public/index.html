@@ -18,36 +18,41 @@
 <body style="background-color: #000;">
     
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="background-color: #000;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./Assets/Images/logo.png" alt="Cyber-Cypher" width="83px" height="px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="ml-auto navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Us</a>
-              </li> 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Schedule</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">TQ15.0</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><button type="button" class="btn btn-outline-info">Apply Now</button></a>
-              </li>
-            
-            </ul>
-          </div>
+  
+      
+
+      <nav class="navbar navbar-expand-lg navbar-custom navbar-dark " style="background-color: #000;">        
+        <a class="navbar-brand" href="#section-cybercypher">
+          <img src="./Assets/Images/logo.png" alt="Cyber-Cypher" width="83px" height="px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#section-about">About Us</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-tq">TQ15.0</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#registerpart">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#registerpart"><button type="button" class="btn btn-outline-info">Apply Now</button></a>
+            </li>
+          </form>
         </div>
       </nav>
-      <!-- navbar ends -->
+<!-- navbar ends -->
+
+
+
 
 <!-- landing page starts here -->
       <!-- timer beigns -->
@@ -100,6 +105,7 @@
 <button type="button" class="btn btn-lg text-center applynow" href="#" style="background-color: A9363C;">Apply now</button>  
 </div>
 
+<!-- about us section -->
 <section id="section-about" data-bgimage="url(images/bg/1.png) fixed no-repeat">
   <div class="welcome">
     <img src="./Assets/Images/welcomeheading.png" alt="Welcome" class=" welcomeheading" />
@@ -119,12 +125,32 @@
       <div class="col-sm-4">
         <img class="shadow" src="./Assets/Images/kaanchwali.jpg" />
       </div>
-      
+      <!-- about us ends -->
+      <!-- taqneeq section -->
     </div>
   </div>
-
+  <section id="section-tq" data-bgimage="url(images/bg/1.png) fixed no-repeat">
+    <div class="tq">
+      <img src="./Assets/Images/TAQNEEQ.svg" alt="TQ" class="img-fluid cybercypher"/>
+    </div>
+    <div class="container heading-welcome">
+      <div class="row tq-items">
+        <div class="">
+          <h2 class="display-4 about-tq text-right">About Taqneeq</h2>
+          <p class="text-right">
+            Over the years, Taqneeq has turned out to be an exceptional tech fest with 3 fun-filled & power-packed days in a row, it has illuminated each & every side of technology, with immense successes in organising remarkable events such as The Talk, Dare2Compete, Internship Fair, Game Development Workshop, Light Reaction, to name a few.
+          </p>
+          <p class="text-right">
+            This year, as we reminisce about its previous versions, we seek to make it even more imposing & memorable for all of us. Episode 15 of Taqneeq encircles around <insert theme name> 
+              What meets the eye is not necessarily as it seems to be. TQ 15.0 is back with even more energy & enthusiasm! Times are busy and calendars full — save the dates!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
               
           </section>
+          <!-- taqneeq section -->
 
           <section id="section-cybercypher" data-bgimage="url(images/bg/1.png) fixed no-repeat">
             <div class="welcome">
@@ -152,7 +178,8 @@
 
 
                     <section id="text-center section-register ">
-                    <div class="welcome">
+                    <div class="welcome" id="registerpart">
+  
                         <img src="./Assets/Images/contact us.svg" alt="Welcome" class="img-fluid cybercypher" />
                         <p class="officalhackathon"> Get in touch</p>
                       </div>
