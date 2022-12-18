@@ -82,7 +82,7 @@ h1{
 .heading-items{
 padding-top:20px;
 color:white;
-font-family:Breymont-Bold;
+font-family:'Breymont-Bold';
 font-style: normal; 
 
 }
@@ -100,7 +100,7 @@ color: white;
 }
 
 .cybercypherheading{
-    width:70%;
+    width:50%;
 }
 
 .applybtn{
@@ -111,8 +111,17 @@ padding-top: 20px;
 
 
 .welcome{
+    padding-top: 20px;
  text-align: center;  
-  
+ font-family: 'visby-bold';
+font-size: bold;
+color: white;  
+}
+.officalhackathon{
+    position: relative;
+    text-align: center;
+    bottom: 25px;
+    font-size: 10px;
 }
 
 .welcomeheading{
@@ -120,33 +129,30 @@ padding-top: 20px;
     width:70%;
 }
 
-
-section{padding:90px 0 90px 0;}
-section{color:white;}
-	section.custom-1{
-	border-bottom-left-radius: 100% 100%;
-	border-bottom-right-radius: 100% 100%;
-	overflow:hidden;
-	}
-	
-	
-	.section-fixed {
-	position:fixed;
-	width:100%;
-	min-height:100%;
-	height:auto;
-	}
-   
-    .paragraph{
-        padding-top:40px;
-    }
+@media (min-width: 992px)  { 
     .shadow{
-        padding-top: 70px;
-        padding-left: 20px;
-        width:50%;
+        width:90%;
     }
-    #section-about{
+}
+@media (max-width: 575.98px) { 
+.shadow{
+    width:50%;
+}
+}
+.welcome-items{
+    padding-top:50px;
+    color:white;
+    
+
+}
+.about{
     font-family: 'visby-bold';
-    font-style: normal;
-    font-size:5px;
-    }
+    font-size: bold;
+
+}
+.aboutcc{
+    font-family: 'visby-bold';
+    font-size: bold;
+    font-size:1rem;
+
+}
