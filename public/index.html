@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cyber-cypher</title>
-    <link rel="stylesheet" href="./main.css">
-<!-- bootstrap CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!-- logo -->
-<link rel = "icon" href = 
-"./Assets/Images/logo.png" >
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cyber-cypher</title>
+  <link rel="stylesheet" href="./main.css">
+  <!-- bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- logo -->
+  <link rel="icon" href="./Assets/Images/logo.png">
 </head>
+
 <body style="background-color: #000;">
-    
+
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-custom navbar-dark " style="background-color: #000;">        
+  <nav class="navbar navbar-expand-lg navbar-custom navbar-dark " style="background-color: #000;">
     <a class="navbar-brand" href="#section-cybercypher">
       <img src="./Assets/Images/logo.png" alt="Cyber-Cypher" width="83px" height="px">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#section-about">About Us</a>
-        </li> 
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Schedule</a>
         </li>
@@ -41,256 +50,262 @@
           <a class="nav-link" href="#registerpart">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#registerpart"><button type="button" class="btn btn-outline-info">Apply Now</button></a>
+          <a class="nav-link" href="#registerpart"><button type="button" class="btn btn-outline-info">REGISTER</button></a>
         </li>
-      </form>
+        </form>
     </div>
   </nav>
-      <!-- navbar ends -->
+  <!-- navbar ends -->
 
-<!-- landing page starts here -->
-      <!-- timer beigns -->
-<div class=" d-flex justify-content-center countdown-timer-container">
-  <div class="texts-timer">
-    <div class="countdown-timer-values" id="days">00</div>
-    <div style="padding-right: 10px;">Days</div>
-  </div>
-  <div class="texts-timer">
-    <div class="countdown-timer-values" id="hours">00</div>
-    <div style="padding-right: 10px;">Hours</div>
-  </div>
-  
-  <div class="texts-timer">
-    <div class="countdown-timer-values" id="minutes">00</div>
-    <div style="padding-right: 10px;">Minutes</div>
-  </div>
-  <div class="texts-timer" >
-  <div class="countdown-timer-values" id="seconds">00</div>
+  <!-- landing page starts here -->
+  <!-- timer beigns -->
+  <div class=" d-flex justify-content-center countdown-timer-container">
+    <div class="texts-timer">
+      <div class="countdown-timer-values" id="days">00</div>
+      <div style="padding-right: 10px;">Days</div>
+    </div>
+    <div class="texts-timer">
+      <div class="countdown-timer-values" id="hours">00</div>
+      <div style="padding-right: 10px;">Hours</div>
+    </div>
 
-  <div style="padding-right: 10px;">Seconds</div>
-</div>
-</div>
-<!-- timer ends -->
+    <div class="texts-timer">
+      <div class="countdown-timer-values" id="minutes">00</div>
+      <div style="padding-right: 10px;">Minutes</div>
+    </div>
+    <div class="texts-timer">
+      <div class="countdown-timer-values" id="seconds">00</div>
 
-
-<!-- landing page texts -->
-<div class="heading-items">
-<div class="text-center heading-cyber">
-   <img src="./Assets/Images/cybercypherheading.png" alt="Cyber-Cypher" class="img-fluid cybercypherheading"/>
-</div>
-<div class=" text-center heading-nmims">
-  <p> nmims’ Official Hackathon</p>
-</div>
-</div>
-<!-- heading graphics -->
-<div class="heading-graphics d-flex justify-content-center">
-<div class="heading-graphic1" style="padding-right: 20px;">
-  <img src="./Assets/Images/calander.svg" alt="calander" >january
-</div>
-<div class="heading-graphic2" style="padding-right: 20px;">
-  <img src="./Assets/Images/arrow.svg" alt="arrow" >2 Levels
-</div>    
-<div class="heading-graphic1">
-  <img src="./Assets/Images/web.svg" alt="mode" >
-  online
-</div>
-</div>
-<div class="text-center applybtn">
-<button type="button" class="btn btn-lg text-center applynow" href="#" style="background-color: A9363C;">Apply now</button>  
-</div>
-
-<section id="section-about" data-bgimage="url(images/bg/1.png) fixed no-repeat">
-  <div class="welcome">
-    <img src="./Assets/Images/welcomeheading.png" alt="Welcome" class=" welcomeheading" />
-  </div>
-  <div class="container heading-welcome">
-    <div class="row welcome-items">
-      <div class="col-sm-8">
-        <h2 class="display-4 about">About our University</h2>
-        <p class="lead">
-          Shri Vile Parle Kelavani Mandal or SVKM is a Public Charitable Trust founded in 1934.
-
-          Over the past 80 years, it has had more than 35,000 students and ever since its humble beginnings in Mumbai, it has now spread its wings to other major metro cities.SVKM's NMIMS with a legacy of 36 years has emerged as a multi-disciplinary University with 7 campuses spread across the country, that includes Management, Engineering, and various other fields.
-
-          Its prestigious constituent school - Mukesh Patel School of Technology Management & Engineering has introduced first of its kind courses like Data Science Artificial Intelligence along with Mechatronics, Cybersecurity, Electronics and Telecommunications and other courses in Academic Collaboration with Virginia Tech… and has also been awarded several accolades for the same.                       
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <img class="shadow" src="./Assets/Images/kaanchwali.jpg" />
-        <img class="shadow_2" src="./Assets/Images/svkmscam.png" />
-        
-      </div>
+      <div style="padding-right: 10px;">Seconds</div>
     </div>
   </div>
+  <!-- timer ends -->
 
-        
+
+  <!-- landing page texts -->
+  <div class="heading-items">
+    <div class="text-center heading-cyber">
+      <img src="./Assets/Images/cybercypherheading.png" alt="Cyber-Cypher" class="img-fluid cybercypherheading" />
+    </div>
+  <br />
+  <br />
+    <div class=" text-center heading-nmims">
+      <p> nmims’ Official Hackathon</p>
+    </div>
+  </div>
+  <!-- heading graphics -->
+  <div class="heading-graphics d-flex justify-content-center">
+    <div class="heading-graphic1" style="padding-right: 20px;">
+      <img src="./Assets/Images/calander.svg" alt="calander">  January
+    </div>
+    <div class="heading-graphic2" style="padding-right: 20px;">
+      <img src="./Assets/Images/arrow.svg" alt="arrow"> 2 Levels
+    </div>
+    <div class="heading-graphic1">
+      <img src="./Assets/Images/web.svg" alt="mode">
+      online
+    </div>
+  </div>
+  <br />
+  <div class="text-center applybtn">
+    <button type="button" class="btn btn-lg text-center applynow" href="#" style="background-color: A9363C;">Register</button>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+
+  <section id="section-about" data-bgimage="url(images/bg/1.png) fixed no-repeat">
+    <div class="welcome">
+      <img src="./Assets/Images/welcomeheading.png" alt="Welcome" class="img-fluid" />
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="container heading-welcome">
+      <div class="row welcome-items">
+        <div class="col-lg-8">
+          <h2 class="display-4 about">About our University</h2>
+          <p class="lead">
+            Shri Vile Parle Kelavani Mandal or SVKM is a Public Charitable Trust founded in 1934.
+
+            Over the past 80 years, it has had more than 35,000 students and ever since its humble beginnings in Mumbai,
+            it has now spread its wings to other major metro cities.SVKM's NMIMS with a legacy of 36 years has emerged
+            as a multi-disciplinary University with 7 campuses spread across the country, that includes Management,
+            Engineering, and various other fields.
+
+            Its prestigious constituent school - Mukesh Patel School of Technology Management & Engineering has
+            introduced first of its kind courses like Data Science Artificial Intelligence along with Mechatronics,
+            Cybersecurity, Electronics and Telecommunications and other courses in Academic Collaboration with Virginia
+            Tech… and has also been awarded several accolades for the same.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img class="shadow" src="./Assets/Images/kaanchwali.jpg" width="315" height="230"/>
+          <img class="shadow_2" src="./Assets/Images/svkmscam.png" width="164" height="164"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+
+  <section id="section-cybercypher" data-bgimage="url(images/bg/1.png) fixed no-repeat">
+    <div class="welcome">
+      <img src="./Assets/Images/TAQNEEQ.svg" alt="Welcome" class="img-fluid" />
+      <p class="officalhackathon"> NMIMS' techical fest</p>
+    </div>
+    <div class="container heading-welcome">
+      <div class="row welcome-items">
+        <div class="col-lg-5">
+          <img class="shadow_3" src="./Assets/Images/image_11.png" width="315" height="230"/>
+          <img class="shadow_4" src="./Assets/Images/image_14.jpg" width="260" height="175"/>
+        </div>
+        <div class="col-lg-7">
+          <h2 class="display-4 aboutcc">About Taqneeq</h2>
+          <p class="lead">
+            Over the years, Taqneeq has turned out to be an exceptional tech fest with 3 fun-filled & power-packed days
+            in a row, it has illuminated each & every side of technology, with immense successes in organising
+            remarkable events such as The Talk, Dare2Compete, Internship Fair, Game Development Workshop, Light
+            Reaction, to name a few.
+          </p>
+          <p class="lead_2">
+            This year, as we reminisce about its previous versions, we seek to make it even more imposing & memorable
+            for all of us. Episode 15 of Taqneeq encircles around
+          </p>
+          <p class="lead_3">
+            What meets the eye is not necessarily as it seems to be. TQ 15.0 is back with even more energy & enthusiasm!
+            Times are busy and calendars full — save the dates!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+
+  <section id="section-cybercypher" data-bgimage="url(images/bg/1.png) fixed no-repeat">
+    <div class="welcome">
+      <img src="./Assets/Images/cybercypherlandscape.svg" alt="Welcome" class="img-fluid" />
+      <p class="officalhackathon"> NMIMS' Official Hackathon</p>
+    </div>
+    <div class="container heading-welcome">
+      <div class="row welcome-items">
+        <div class="col-lg-8">
+          <h2 class="display-4 aboutcc">What is Cyber Cypher</h2>
+          <p class="lead">
+            Cyber Cypher is an 18-hour hackathon that aims to provide a platform to both budding and experienced coders
+            alike.We intend to target engineering students from every skill-group, ranging from students with
+            surface-level to the ones with ample coding experience.
+            Cyber Cypher intends to make the participants appreciate the limitless potential that lies dormant within
+            them with respect to this dynamic field of computer sciences.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img class="shadow" src="./Assets/Images/kaanchwali.jpg" width="315" height="230"width="315" height="230">
+          <img class="shadow_2" src="./Assets/Images/svkmscam.png" width="164" height="164"/>
+        </div>
+      </div>
+    </div>
 </section>
 
-<section id="section-cybercypher" data-bgimage="url(images/bg/1.png) fixed no-repeat">
-  <div class="welcome">
-    <img src="./Assets/Images/TAQNEEQ.svg" alt="Welcome" class="img-fluid cybercypher" />
-    <p class="officalhackathon"> NMIMS' techical fest</p>
-  </div>
-  <div class="container heading-welcome">
-    <div class="row welcome-items">
-      <div class="col-sm-5">
-        <img class="shadow_3" src="./Assets/Images/image_11.png" />
-        <img class="shadow_4" src="./Assets/Images/image_14.jpg" />
-      </div>
-      <div class="col-sm-7">
-        <h2 class="display-4 aboutcc">About Taqneeq</h2>
-        <p class="lead">
-          Over the years, Taqneeq has turned out to be an exceptional tech fest with 3 fun-filled & power-packed days in a row, it has illuminated each & every side of technology, with immense successes in organising remarkable events such as The Talk, Dare2Compete, Internship Fair, Game Development Workshop, Light Reaction, to name a few.
-          </p>
-        <p class="lead_2">
-          This year, as we reminisce about its previous versions, we seek to make it even more imposing & memorable for all of us. Episode 15 of Taqneeq encircles around
-        </p>  
-        <p class="lead_3">
-          What meets the eye is not necessarily as it seems to be. TQ 15.0 is back with even more energy & enthusiasm! Times are busy and calendars full — save the dates!
-        </p>
-      </div>
-     
-      
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+  <section id="text-center section-register ">
+    <div class="welcome">
+      <img src="./Assets/Images/contact us.svg" alt="Welcome" class="img-fluid cybercypher" />
+      <p class="officalhackathon"> Get in touch</p>
     </div>
-  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+          <div class="separator"><span><i class="fa fa-square"></i></span></div>
+          <div class="spacer-single"></div>
+        </div>
 
-
-
-
-              
-          </section>
-
-          <section id="section-cybercypher" data-bgimage="url(images/bg/1.png) fixed no-repeat">
-            <div class="welcome">
-              <img src="./Assets/Images/cybercypherlandscape.svg" alt="Welcome" class="img-fluid cybercypher" />
-              <p class="officalhackathon"> NMIMS' Official Hackathon</p>
-            </div>
-            <div class="container heading-welcome">
-              <div class="row welcome-items">
-                <div class="col-sm-8">
-                  <h2 class="display-4 aboutcc">What is Cyber Cypher</h2>
-                  <p class="lead">
-                    Cyber Cypher is an 18-hour hackathon that aims to provide a platform to both budding and experienced coders alike.We intend to target engineering students from every skill-group, ranging from students with surface-level to the ones with ample coding experience.
-                    Cyber Cypher intends to make the participants appreciate the limitless potential that lies dormant within them with respect to this dynamic field of computer sciences.
-                  </p>
+        <div class="col-md-8 offset-md-2 wow fadeInUp">
+          <form name="contactForm" id='contact_form' method="post" action='email.php'>
+            <div class="row">
+              <div class="col-md-6">
+                <div id='name_error' class='error'>Please enter your name.</div>
+                <div>
+                  <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
                 </div>
-                <div class="col-sm-4">
-                  <img class="shadow" src="./Assets/Images/kaanchwali.jpg" />
-                  <img class="shadow_2" src="./Assets/Images/scam.jpg" />
+
+                <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                <div>
+                  <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
                 </div>
-                
+
+                <div id='phone_error' class='error'>Please enter your phone number.</div>
+                <div>
+                  <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div id='message_error' class='error'>Please enter your message.</div>
+                <div>
+                  <textarea name='message' id='message' class="form-control"
+                    placeholder="Additional Message"></textarea>
+                </div>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <p id='submit'>
+                  <input type='submit' id='send_message' value='Register Now' class="btn btn-line"
+                    style="background-color: antiquewhite;">
+                </p>
+                <div id='mail_success' class='success'>Your message has been sent successfully.</div>
+                <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
               </div>
             </div>
-          
-                        
-                    </section>
-                    <section id="text-center section-register ">
-                    <div class="welcome">
-                        <img src="./Assets/Images/contact us.svg" alt="Welcome" class="img-fluid cybercypher" />
-                        <p class="officalhackathon"> Get in touch</p>
-                      </div>
-              <div class="container">
-                          <div class="row">
-                  <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
-                                 
-                                  <div class="separator"><span><i class="fa fa-square"></i></span></div>
-                                  <div class="spacer-single"></div>
-                              </div>
-      
-                              <div class="col-md-8 offset-md-2 wow fadeInUp">
-                                  <form name="contactForm" id='contact_form' method="post" action='email.php'>
-                                      <div class="row">
-                                          <div class="col-md-6">
-                                              <div id='name_error' class='error'>Please enter your name.</div>
-                                              <div>
-                                                  <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
-                                              </div>
-      
-                                              <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
-                                              <div>
-                                                  <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
-                                              </div>
-      
-                                              <div id='phone_error' class='error'>Please enter your phone number.</div>
-                                              <div>
-                                                  <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
-                                              </div>
-                                          </div>
-                                          <div class="col-md-6">
-                                              <div id='message_error' class='error'>Please enter your message.</div>
-                                              <div>
-                                                  <textarea name='message' id='message' class="form-control" placeholder="Additional Message"></textarea>
-                                              </div>
-                                          </div>
-      
-                                          <div class="col-md-12 text-center">
-                                              <p id='submit'>
-                                                  <input type='submit' id='send_message' value='Register Now' class="btn btn-line" style="background-color: antiquewhite;">
-                                              </p>
-                                              <div id='mail_success' class='success'>Your message has been sent successfully.</div>
-                                              <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
-                                          </div>
-                                      </div>
-                                  </form>
-                              </div>
-      
-      
-                          </div>
-                      </div>
-      
-                  </section>
-                  <footer class="footer">
-                  <div class="text-center p-3" style="background: linear-gradient(90deg, #EE0C77 -16.49%, #F24D56 61.82%, #EE0C77 105.31%);">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col">
-                          <p class="kuch">kuch toh fancy one liner</p>
-                        </div>
-                        <div class="col">
-                          <p class="footerregister">REGISTER NOW</p>
-                        </div>
-                      </div>
-                    </div>
-                     </div>
-                  <!-- Copyright -->
-                </footer>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <footer class="footer">
+    <div class="text-center p-3"
+      style="background: linear-gradient(90deg, #EE0C77 -16.49%, #F24D56 61.82%, #EE0C77 105.31%);">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="kuch">kuch toh fancy one liner</p>
+          </div>
+          <div class="col">
+            <p class="footerregister">REGISTER NOW</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
   <script src="main.js"></script>
-
-
-</body>
 </html>
