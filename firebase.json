@@ -1,6 +1,6 @@
 {
   "hosting": {
-    
+    "site": "cybercypher-taqneeq",
     "public": "public",
     "ignore": [
       "firebase.json",
