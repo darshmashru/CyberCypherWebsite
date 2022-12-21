@@ -1,6 +1,15 @@
+:root {
+  --gradient-colors: #a9363c 0.01%, #a70a53 53.8%, #a9363c 99.98%;
+}
+
 .img-fluid {
   max-width: 90% !important;
   height: auto;
+}
+.btn-outline-info {
+  color: #a70a53;
+  background-color: transparent;
+  background-image: none;
 }
 
 h1 {
@@ -60,6 +69,28 @@ h1 {
 /* navigation Changes */
 
 /* navbar */
+.btn-outline {
+  font-family: "visby-bold";
+  font-size: 24px!important;
+  font-weight: 600;
+  padding: -20px 0;
+}
+.btn-outline {
+  color: linear-gradient(89.99deg,var(--gradient-colors));
+  background-color: linear-gradient(89.99deg,var(--gradient-colors));
+  border-color: linear-gradient(89.99deg,var(--gradient-colors));
+  font-weight: bold;
+  border-radius: 0;
+}
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: linear-gradient(90deg, #EE0C77 -16.49%, #F24D56 61.82%, #EE0C77 105.31%)
+  ;
+  color: #fff;
+  border-color: #fff;
+}
 
 .nav-item {
   font-family: "visby-bold";
@@ -194,13 +225,13 @@ h1 {
 }
 .lead_2 {
   padding: 15px;
-  text-align: right;
+  text-align: justify;
   font-size: 1.25rem;
   font-weight: 300;
 }
 .lead_3 {
   padding: 15px;
-  text-align: right;
+  text-align: justify;
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -367,12 +398,12 @@ h1 {
   font-family: "visby-bold";
   font-size: bold;
   font-size: 1rem;
-  text-align: left;
+  text-align: justify;
   color: white;
 }
 .footerregister {
   padding-top: 10px;
-  text-align:right;
+  text-align:justify;;
   font-family: "visby-bold";
   font-size: bold;
   font-size: 1rem;
