@@ -625,7 +625,7 @@ font-style: normal;
 
 .cards{
   /* background: linear-gradient(90deg, rgba(241,69,90,1) 0%, rgba(238,16,117,1) 100%);  width: 500px; */
-  background: #40405a;
+  background: #000;
   margin: 40px;
   margin-top: 20px;
   border-radius: 15px;
@@ -648,11 +648,10 @@ background-image: url('./Assets/Images_index/robot.jpg');
   }
 .cards h2{
   padding: 10px;
-  font-family: "breymont-bold";
+  font-family: "visby-bold";
   font-style: bold;
   color:white;
   font-size:40px;
-  text-decoration: underline;
 }
 .cards h3{
   padding: 10px;
@@ -663,18 +662,21 @@ background-image: url('./Assets/Images_index/robot.jpg');
 }
 .cards p{
   padding: 10px;
-  font-family: "breymont-regular";
+  font-family: "visby-regular";
   font-style: normal;
   color:white;
 }
 .btn-colour-1 {
   color: #fff;
-  background-color: #004E64;
-  border-color: #004E64;
+  background-color: #000;
+  border-color: #fff;
   font-weight: bold;
   letter-spacing: 0.05em;
-  border-radius: 0;
+  border-radius: 2px;
   text-decoration: none;
+}
+.btn-colour-1:hover{
+  text-decoration: none !important;
 }
 .card-button{
   padding: 10px;
@@ -684,6 +686,7 @@ background-image: url('./Assets/Images_index/robot.jpg');
   cursor: pointer;
   transform:scale(1.03);
   transition: all 1s ease;
+  text-decoration: none;
 }
 /* typewriter */
 
@@ -694,8 +697,9 @@ background-image: url('./Assets/Images_index/robot.jpg');
   margin-left: 400px auto; 
   margin-right: 400px auto; 
   letter-spacing: .15em; 
+  font-size: 60px;
   color: white;
-  animation:typing 3.5s steps(40, end),
+  animation:typing 3.5s steps(40),
   blink-caret .75s step-end infinite;
 }
 
