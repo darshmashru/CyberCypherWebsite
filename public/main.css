@@ -104,8 +104,6 @@ h1 {
   background-color: linear-gradient(89.99deg,var(--gradient-colors));
   font-weight: bold;
   border-radius: 0;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .btn-outline:hover,
