@@ -682,12 +682,19 @@ h1 {
 }
 /* typewriter */
 
+.tw-container {
+  display: grid;
+  place-items: center;
+}
+
 .typewriter-div {
   font-size: 60px;
   color: white !important;
-  display: grid;
+  display: inline-block;
   place-items: center;
-  width: 100vw;
+  /* width: 50vw; */
+  /* margin-left: 25vw; */
+  /* border: 2px solid white; */
 }
 
 .typewriter {
@@ -697,7 +704,7 @@ h1 {
   white-space: nowrap;
   border-right: 2px solid;
   width: 0;
-  animation: typing 3.5s steps(30, end) 0s forwards, blinking 1s infinite;
+  animation: typing 2.5s steps(30, end) 0s forwards, blinking 1s infinite;
   animation-iteration-count: 500;
 }
 
