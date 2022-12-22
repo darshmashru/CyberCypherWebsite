@@ -96,7 +96,7 @@ h1 {
   color: linear-gradient(89.99deg,var(--gradient-colors));
   background-color: linear-gradient(89.99deg,var(--gradient-colors));
   font-weight: bold;
-  border-radius: 0;
+  border-radius: 5px;
 }
 .btn-outline:hover,
 .btn-outline:active,
