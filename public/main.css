@@ -27,7 +27,10 @@
   color: #a70a53;
   background-color: transparent;
   background-image: none;
+
+
 }
+
 
 h1 {
   background: linear-gradient(
@@ -86,6 +89,10 @@ h1 {
 /* navigation Changes */
 
 /* navbar */
+.padregister{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .btn-outline {
   font-family: "visby-bold";
   font-size: 24px!important;
@@ -96,8 +103,9 @@ h1 {
   color: linear-gradient(89.99deg,var(--gradient-colors));
   background-color: linear-gradient(89.99deg,var(--gradient-colors));
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 0;
 }
+
 .btn-outline:hover,
 .btn-outline:active,
 .btn-outline:focus,
@@ -418,7 +426,7 @@ h1 {
 }
 .footerregister {
   padding-top: 10px;
-  text-align:justify;;
+  text-align:right;
   font-family: "visby-bold";
   font-size: bold;
   font-size: 1rem;
@@ -605,4 +613,75 @@ font-style: normal;
   font-style: bold;
   font-size: 20px;
  
+}
+
+/* cards index */
+.container-cards{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.cards{
+  /* background: linear-gradient(90deg, rgba(241,69,90,1) 0%, rgba(238,16,117,1) 100%);  width: 500px; */
+  background: #40405a;
+  margin: 40px;
+  margin-top: 20px;
+  border-radius: 15px;
+  max-width: 500px;
+
+}
+
+.card-image{
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card-1{
+background-image: url('./Assets/Images_index/robot.jpg');
+}
+.card-2{
+  background-image: url('./Assets/Images_index/recycle.jpg');
+  }
+.cards h2{
+  padding: 10px;
+  font-family: "breymont-bold";
+  font-style: bold;
+  color:white;
+  font-size:50px;
+  text-decoration: underline;
+}
+.cards h3{
+  padding: 10px;
+  font-family: "breymont-bold";
+  font-style: bold;
+  font-size:20px;
+  color:white;
+}
+.cards p{
+  padding: 10px;
+  font-family: "breymont-regular";
+  font-style: normal;
+  color:white;
+}
+.btn-colour-1 {
+  color: #fff;
+  background-color: #004E64;
+  border-color: #004E64;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+  text-decoration: none;
+}
+.card-button{
+  padding: 10px;
+}
+.cards:hover {
+  background:linear-gradient(90deg, rgba(241,69,90,1) 0%, rgba(238,16,117,1) 100%);  width: 500px ;
+  cursor: pointer;
+  transform:scale(1.03);
+  transition: all 1s ease;
 }
