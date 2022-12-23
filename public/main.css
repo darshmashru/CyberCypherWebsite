@@ -1,7 +1,10 @@
 :root {
   --gradient-colors: #a9363c 0.01%, #a70a53 53.8%, #a9363c 99.98%;
 }
-
+body{
+ color: white;
+ background-color: #000; 
+}
 .btnn {
   display: inline-block;
   font-weight: 400;
@@ -633,6 +636,12 @@ h1 {
 .card-2 {
   background-image: url("./Assets/Images_index/recycle.jpg");
 }
+.card-3{
+background-image: url('./Assets/Images_CC1.0/spies.jpg');
+}
+.card-4{
+  background-image: url('./Assets/Images_CC1.0/social_media.jpg');
+}
 .cards h2 {
   padding: 10px;
   font-family: "visby-bold";
@@ -734,4 +743,113 @@ h1 {
   margin: 50px;
   font-family: "breymont-bold";
   font-style: bold;
+}
+
+/* cards on cybercypher 1.0 page */
+.pf-card-list{
+  display:flex;
+  color: white;
+  font-family: 'visby-bold';
+  font-style: bold ;
+  padding: 3rem;
+  overflow-x:scroll;
+}
+.pf-card-list::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+
+}
+.pf-card-list:-webkit-scrollbar-thumb{
+  background: #201c29;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+.pf-card-list::-webkit-scrollbar-track{
+  background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+}
+.pf-card{
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  padding: 1.5rem;
+  height:350px;
+  width: 400px;
+  min-width: 250px;
+
+  border-radius: 16px;
+  background-color: #17141d;
+  box-shadow: -1rem 0 3rem #000;
+
+  transition:.2s;
+
+}
+
+.pf-card:hover{
+  transform: translateY(-1rem);
+}
+
+.pf-card:hover~.pf-card{
+  transform: translate(130px);
+}
+.pf-card:not(:first-child){
+  margin-left:-130px;
+}
+.profile1{
+  background-image: url('./Assets/Images_CC1.0/chaturvedhi_cheif\ Guest.jpg');
+}
+.profile{
+  margin: 3rem 0 0;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  align-items: center;
+  position: relative;
+}
+.profile-image img{
+  width: 140px;
+  height: 100px; 
+  display: block;
+  overflow: hidden;
+  margin: 0px ;
+}
+.pf-card h2:hover {
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.pf-card h4:hover {
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.tags {
+  margin: 1rem 0 2rem;
+  padding: .5rem 0 1rem;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+.tags a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: .5rem;
+  color: #7a7a8c;
+  text-transform: uppercase;
+  font-size: .66rem;
+  border: 3px solid #28242f;
+  border-radius: 2rem;
+  padding: .2rem .85rem .25rem;
+  position: fixed;
+}
+
+.tags a:hover {
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  border-color: white;
 }
