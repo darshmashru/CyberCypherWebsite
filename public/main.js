@@ -22,3 +22,5 @@ let x = setInterval(function () {
     clearInterval(x);
   }
 }, 1000);
+
+// cyber cypher 1.0 sponser

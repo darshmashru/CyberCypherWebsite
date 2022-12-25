@@ -99,6 +99,7 @@ h1 {
   font-size: 24px !important;
   font-weight: 600;
   padding: -20px 0;
+
 }
 .btn-outline {
   color: linear-gradient(89.99deg, var(--gradient-colors));
@@ -154,7 +155,7 @@ h1 {
   font-style: normal;
 }
 .heading-nmims {
-  padding-top: 5px;
+  padding-top: 25px;
   font-size: 20px;
 }
 
@@ -188,7 +189,7 @@ h1 {
 .officalhackathon {
   position: relative;
   text-align: center;
-  bottom: 160px;
+  bottom: 140px;
   font-size: 28px;
 }
 
@@ -661,6 +662,7 @@ background-image: url('./Assets/Images_CC1.0/spies.jpg');
   font-family: "visby-regular";
   font-style: normal;
   color: white;
+  
 }
 .btn-colour-1 {
   color: #fff;
@@ -853,3 +855,84 @@ background-image: url('./Assets/Images_CC1.0/spies.jpg');
   background-clip: text;
   border-color: white;
 }
+
+
+/* cyber cypher 1.0 our sponsers */
+
+.slide img {
+  width: 200px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+.slider {
+  margin-top: 70px;
+  background-color: #000;
+  padding-top:20px;
+  padding-bottom: 100px;
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
+}
+
+/* schedule page timeline */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: linear-gradient(
+      89.98deg,
+      #a9363c 0.01%,
+      #a70a53 53.8%,
+      #a9363c 99.98%
+    );    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #000;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+.flag{
+  background:#000;
+  font-family: 'visby-bold';
+  font-style:bold;
+  color:white;
+  background: linear-gradient(
+    89.98deg,
+    #a9363c 0.01%,
+    #a70a53 53.8%,
+    #a9363c 99.98%
+  );
+}
+
+/* Timeline item circle marker */
