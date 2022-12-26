@@ -935,4 +935,8 @@ li.timeline-item {
   );
 }
 
-/* Timeline item circle marker */
+/* google maps api stuff */
+.gmap_iframe{
+  padding-left: 100px;
+  padding-right:100px ;
+}
