@@ -165,6 +165,7 @@ h1 {
   font-family: "visby-medium";
   font-size: normal;
   color: white;
+  flex-wrap: wrap;
 }
 
 .cybercypherheading {
@@ -189,10 +190,30 @@ h1 {
 .officalhackathon {
   position: relative;
   text-align: center;
+  bottom: 80px;
+  font-size: 28px;
+  flex-wrap: wrap;
+}
+@media (min-width: 300px ) and (max-width: 767.98px) { 
+.officalhackathon{
+  bottom: 140px;
+
+}
+ }
+
+ .offical {
+  position: relative;
+  text-align: center;
   bottom: 140px;
   font-size: 28px;
+  flex-wrap: wrap;
 }
+@media (min-width: 300px ) and (max-width: 767.98px) { 
+.offical{
+  bottom: 90px;
 
+}
+ }
 .welcomeheading {
   padding-top: 20px;
   width: 70%;
@@ -455,8 +476,10 @@ h1 {
 .contactus {
   position: relative;
   text-align: center;
-  bottom: 140px;
   font-size: 28px;
+  bottom:680px;
+  left:110px;
+
 }
 /* spotlights index page domains */
 
@@ -937,6 +960,8 @@ li.timeline-item {
 
 /* google maps api stuff */
 .gmap_iframe{
-  padding-left: 100px;
-  padding-right:100px ;
+  padding-left:100px;
+  padding-right:100px;
 }
+
+

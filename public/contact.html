@@ -64,7 +64,7 @@
   <section id="text-center section-register" >
     <div class="welcome">
       <img src="./Assets/Images_Contact_Us_page/Contact_us_heading.svg" alt="Welcome" class="img-fluid cybercypher" />
-      <p class="contactus" id="offical"> Get in touch</p>
+      <p class="offical" id="offical"> Get in touch</p>
     </div>
     <div class="container">
       <div class="row">
@@ -96,23 +96,46 @@
                   <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Message">
                 </div>
               </div>
-              <!-- <div class="col-md-6">
+                <div class="col-md-12">
                 <div id='message_error' class='error'>Please enter your message.</div>
                 <div>
                   <textarea name='message' id='message' class="form-control"
                     placeholder="Additional Message"></textarea>
                 </div>
-              </div> -->
-
+              </div>
+              
               <div class="col-md-12 text-center">
                 <p id='submit'>
-                  <a role="button" class="btn btn-lg text-center applynow" href="register.html" style="background: linear-gradient(90deg, #EE0C77 -16.49%, #F24D56 61.82%, #EE0C77 105.31%); color: black; font-style: bold; font-family: visby-bold;">submit</a>
+                  <a role="button" class="btn btn-lg text-center applynow" data-toggle="modal" data-target="#Modal_Content" href="#mail_success" style="background: linear-gradient(90deg, #EE0C77 -16.49%, #F24D56 61.82%, #EE0C77 105.31%); color: white; font-style: bold; font-family: visby-bold;">submit</a>
                 </p>
                 <div id='mail_success' class='success'>Your message has been sent successfully.</div>
                 <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
               </div>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="Modal_Content" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background: linear-gradient(90deg, #EE0C77 -16.49%, #F24D56 61.82%, #EE0C77 105.31%); color: white; font-style: bold; font-family: visby-bold;">
+            <h5 class="modal-title" id="exampleModalLongTitle">Success</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Your message was sent sucessfully 
+          </br>
+          Register for cybercypher2.0
+          </div>
+          <div class="modal-footer">
+            <a role="button" class="btn btn-lg text-center applynow"  href="./register.html" style="background: linear-gradient(90deg, #EE0C77 -16.49%, #F24D56 61.82%, #EE0C77 105.31%); color: white; font-style: bold; font-family: visby-bold;">Register</a>
+          </div>
         </div>
       </div>
     </div>
