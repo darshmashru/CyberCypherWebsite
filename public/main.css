@@ -468,6 +468,7 @@ h1 {
   font-size: 1rem;
   text-align: justify;
   color: white;
+  text-decoration: none;
 }
 .footerregister {
   padding-top: 10px;
@@ -476,6 +477,7 @@ h1 {
   font-size: bold;
   font-size: 1rem;
   color: white;
+  text-decoration: none;
 }
 .footer {
   height: 40px;
