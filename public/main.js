@@ -1,5 +1,5 @@
 // this takes the date which will be set to cyber cypher date now set to jan 20
-const countDownDateTime = new Date("jan 21, 2023 00:00:00").getTime();
+const countDownDateTime = new Date("jan 21, 2024 00:00:00").getTime();
 // days and time
 const daysValue = document.querySelector("#days");
 const hoursValue = document.querySelector("#hours");
