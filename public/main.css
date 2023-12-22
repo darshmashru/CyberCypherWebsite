@@ -158,6 +158,10 @@ h1 {
   padding-top: 25px;
   font-size: 20px;
 }
+.welcome p{
+  margin-top:20px;
+}
+
 
 /* heading graphics */
 .heading-graphics {
@@ -640,8 +644,8 @@ h1 {
 .whatsin {
   position: relative;
   text-align: center;
-  bottom: 140px;
-  font-size: 28px;
+  bottom: 110px;
+  font-size: 20px;
 }
 .vectors {
   height: 90%;
@@ -992,4 +996,10 @@ li.timeline-item {
   
   }
 
+}
+
+
+.cc-image-2{
+  width:50%;
+  padding-bottom: 100px;
 }
